@@ -1,0 +1,123 @@
+body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      background-color: #f3f3f3;
+  }
+  h4 {
+      font-size: 25px;
+      line-height: 1.375em;
+      color: purple;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  h3{
+      font-size: 21px;
+      color: #fc4a1a;
+  }
+  p{
+    color: blue ;
+  }
+  .jumbotron {
+      background-color: #e8cebf;
+      color: orangered;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+      font-weight: bold;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  
+  .navbar {
+      margin-bottom: 0;
+      background-color: #e8cebf;
+      z-index: 9999;
+      border: 0;
+      font-size: 14px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: 'Ubuntu', sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #3c1874 !important;
+      font-weight: bold;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #932432 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+ 
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #4abdacb6;
+  top:10 ;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+
+.content {
+  padding: 20px 30px;
+  background-color: #4abdacb6;
+  position: relative;
+  border-radius: 6px;
+}
+
+.box-shadow{
+    box-shadow: 0px rgba(0, 0, 0, 0.2),1px rgba(0, 0, 0, 0.19);
+}
+{
+  text-decoration: none;
+}
+
+#contact1{
+  text-decoration: none;
+}
+.about{
+  color: #9cb700;
+}
+
+#mobile,#mail{
+    text-decoration: none;
+    color: #9cb700;
+}
+
+
+#typewriter {
+  margin-left: auto;
+  margin-right: auto;
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Varela Round';  
+  font-size: 28px;
+  color: rgb(17, 0, 255);
+}
+
+/* Animation */
+#typewriter {
+  animation: animated-text 5s steps(21,end) infinite,
+             animated-cursor 600ms steps(21,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0px;}
+  to{width: 275px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
